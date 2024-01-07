@@ -1,0 +1,371 @@
+body {
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url("assets/bg/Background video.gif");
+    background-attachment: fixed;
+    object-fit: cover;
+  }
+  
+  nav {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    padding-top: 20px;
+  }
+  
+  .bar {
+    width: 1.5px;
+    background: #fff;
+    height: 70px;
+    margin: 10px;
+  }
+  
+  nav .carmtif-logo {
+    width: 180px;
+    height: auto;
+    margin-left: 10px;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+  }
+  
+  nav .carmel-logo {
+    width: 180px;
+    height: auto;
+    margin-left: 50px;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+  }
+  
+
+    /* Styles for the heading with h1 content */
+    .heading h2 {
+        color: white;
+        font-family: 'Karla', sans-serif;
+        font-weight: 800; /* Extra Bold */
+        margin-bottom: -10px;
+        text-align: center;
+        font-size: 30px;
+         }
+    
+    
+    
+    /* Styles for the heading with h2 content */
+        .heading h3 {
+        color: white;
+        font-family: 'Karla', sans-serif;
+        font-weight: 300; 
+        text-align: center;
+        font-size: 22px;/* Light */
+         }
+
+         
+         .poster {
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            height: 100vh; /* Set to 100% of the viewport height */
+        }
+
+        .poster img {
+            margin-top: -100px;
+            margin-left: 90px;
+            max-width: 50%; /* Make sure the image doesn't exceed the container width */
+            height: 750px; /* Maintain the image aspect ratio */
+        }
+  /* Media query for smaller screens */
+  
+  @media (max-width: 480px) {
+  
+    nav {
+      width: auto;
+      justify-content: center;
+      margin: auto;
+      align-items: center;
+    }
+    .heading h2 {
+        font-size: 18px;
+         }
+
+         .poster {
+            justify-content: center;
+
+            height: 100vh; /* Set to 100% of the viewport height */
+        }
+
+        .poster img {
+            margin-left: 0px;
+            margin-top: -400px;
+            max-width: 90%; /* Make sure the image doesn't exceed the container width */
+            height: 400px; /* Maintain the image aspect ratio */
+        }
+    
+    
+    
+    /* Styles for the heading with h2 content */
+        .heading h3 {
+            font-size: 14px;
+            
+         }
+         .additional-image {
+            width: 100%; /* Adjust the width as needed */
+            max-width: 350px; /* Set a maximum width if necessary */
+            margin: auto; /* Center horizontally */
+            display: block; /* Make it a block-level element */
+            margin-top: -20px;
+        }
+
+         
+
+  }
+
+
+  .button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #FFA902;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    font-size: 26px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px; /* Adjust the margin as needed */
+    border: none;
+    width: 430px;
+    font-weight: 1000;
+    font-family: 'Karla', sans-serif; /* Replace with your desired font family */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px ) {
+    .button {
+        margin: 20px;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 10px; /* Adjust the margin as needed */
+        border: none;
+        max-width: 350px;
+    }
+    nav {
+      padding-top: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      width: 100%;
+    }
+  
+    nav .carmel-logo {
+      width: 140px;
+      margin-left: 0px;
+    }
+  
+    nav .carmtif-logo {
+      width: 140px;
+    }
+  
+    .bar {
+      height: 30px;
+      opacity: 80%;
+    }
+
+
+    .heading h2 {
+        font-size: 18px;
+         }
+    
+    
+    
+    /* Styles for the heading with h2 content */
+        .heading h3 {
+            font-size: 14px;
+            
+         }
+
+  
+
+  }
+/* 
+  pc screens */
+  @media screen and (min-width: 768px ) {
+  .additional-image {
+    width: 200%; /* Adjust the width as needed */
+    max-width: 450px; /* Set a maximum width if necessary */
+    margin: auto; /* Center horizontally */
+    display: block; /* Make it a block-level element */
+    position: absolute;
+    top: 360px;
+    right: 450px;
+  }
+  .button{
+    position: absolute;
+    top: 440px;
+    right: 450px;
+  }
+  .about {
+    color: white;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    position: absolute;
+    top: 510px;
+    right: 520px;
+    width:350px;
+    
+}
+
+.about h1 {
+    font-size: 38px;
+}
+
+.about p,pre {
+    
+    font-size: 18px;
+}
+.about i {
+    margin-right: 5px;
+    margin-left: 25px;
+}
+
+
+
+}
+  /* Style for the card container */
+  .card {
+    width: 120%;
+    max-width: 400px;
+    margin: auto;
+    
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 280px;
+    right: 450px;
+  
+}
+
+/* Style for the date text */
+.date {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+        font-weight: 900; 
+    
+}
+
+.date h1, .date p {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.date-details {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+        font-weight: 400; 
+
+}
+
+#time{
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+#datedet{
+    margin-right: 70px;
+    margin-left: 10px;
+    
+}
+#d{
+    margin-right: 1000px;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        position: static; /* Remove absolute positioning */
+        width: 80%; /* Adjust width as needed for mobile */
+        margin: auto;
+        margin-top: -410px;
+        margin-bottom: -12px;
+        
+    }
+    
+    /* Add any additional styles needed for mobile layout */
+    .date {
+        font-size: 20px; /* Adjust font size for mobile */
+    }
+
+    .date-details {
+        font-size: 16px; /* Adjust font size for mobile */
+        margin-top: 5px; /* Adjust margin for mobile */
+    }
+
+    #time {
+        margin-left: 8px; /* Adjust margin for mobile */
+    }
+
+    #datedet {
+        margin-right: 8px; /* Adjust margin for mobile */
+        margin-left: -18px; /* Adjust margin for mobile */
+    }
+    #d{
+        margin-right: 10px;
+    
+    }
+
+    .about h1 {
+      font-size: 22px;
+    }
+    
+    .about p,pre {
+        font-size: 13px;
+        
+        
+    }
+    
+    .about i {
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+   
+}
+
+.about {
+    color: white;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.about h1 {
+   
+    margin-bottom: 10px;
+    margin-top: -15px;
+}
+
+.about p {
+    
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
