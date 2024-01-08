@@ -7,17 +7,63 @@
   <title>College Level Competition</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karla:wght@300;800&display=swap">
+
+  <style>
+
+    body {
+      margin: 0;
+      font-family: 'Karla', sans-serif;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .left-container, .right-container {
+      box-sizing: border-box;
+      width: 45%; /* Adjust the width as needed */
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .left-container, .right-container {
+        width: 100%;
+      }
+    }
+
+    /* Add additional styles as needed */
+    .left-container {
+      padding: 20px;
+    
+    }
+
+    .right-container {
+      padding: 20px;
+ 
+    }
+  </style>
 </head>
-
 <body>
-  <nav>
-
-    <img src="../assets/logo/Carmtif Logo.webp" alt="Carmtif" class="carmtif-logo" />
-
-    <div class="bar"></div>
-    <img src="../assets/logo/Carmel Logo.png" alt="carmel logo" class="carmel-logo" />
-  </nav>
-  <div class="container">
+    <nav>
+        <img
+          src="../assets/logo/Carmel Logo.png"
+          alt="carmel logo"
+          class="carmel-logo"
+        />
+        <div class="bar"></div>
+        <img
+          src="assets/logo/Carmtif Logo.webp"
+          alt="Carmtif"
+          class="carmtif-logo"
+        />
+      </nav>
+  <div class="heading">
 
     <div class="heading">
       <h2>COLLEGE LEVEL PROJECT COMPETITION</h2>
@@ -25,60 +71,71 @@
     </div>
 
 
-
-    <div class="poster">
-      <img src="assets/poster/demo1.jpg" alt="">
+  <div class="container">
+    <div class="left-container">
+            <img src="assets/poster/Collegeposter.jpg" alt="">
     </div>
 
-
-    <div class="card">
-      <div class="date" id ="a">
-        <h1>24</h1>
-        <div class="date-details" id="datedet">
-          <p  id="m">JAN</p>
-          <p>2024</p>
-        </div>
-        <div class="date" id="d">
-          <h1>10:00</h1>
-          <div class="date-details" id="time">
-            <p id="m">AM</p>
-            <p>ONWARDS</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <img src="assets/poster/college level.png" alt="prize" class="additional-image">
-    <a href="https://forms.gle/RiHx4rfkx6Qis2mo7">
-      <button class="button">REGISTER NOW</button>
-    </a>
-    <div class="about">
-      <h1>About The Event</h1>
-      <p>Carmel Polytechnic College's Tech Fest College students to showcase their
-        innovative projects.
-        Participants must register by the deadline, submit a project overview, and set up exhibits for judging on the
-        event day. Criteria
-        include innovation, functionality, presentation, and overall impact. Winners will receive prizes and
-        certificates for their
-        outstanding contributions. Join us for a celebration of creativity and technology at Carmel Polytechnic
-        College's Tech Fest!</p>
-      <h1>Event Coordinator</h1>
-      <p>
-        Mrs.Sreeji Srinivas
-        <a href="tel:+919497219788" style="color: #ffffff; text-decoration: none;">
-          <i class="fas fa-phone"></i> +91 9207776561<br/>
-        </a>
-
-        <a href="https://wa.me/919497219788" style="color: #ffffff; text-decoration: none;">
-          <i class="fab fa-whatsapp"></i> +91 9207776561
-        </a>
-      </p>
+    <div class="right-container">
+        <div class="card">
+            <div class="date" id ="a">
+              <h1>24</h1>
+              <div class="date-details" id="datedet">
+                <p  id="m">JAN</p>
+                <p>2024</p>
+              </div>
+              <div class="date" id="d">
+                <h1>10:00</h1>
+                <div class="date-details" id="time">
+                  <p id="m">AM</p>
+                  <p>ONWARDS</p>
+                </div>
+              </div>
+            </div>
       
-    </div>
+          </div>
+          <img src="assets/poster/college level.png" alt="prize" class="additional-image">
+          <a href="https://docs.google.com/forms/d/1HTMOxKklWTqn-RY1IzHJQEl_TiSVOKgRCdZqou2v0wk/edit?usp=drivesdk">
+            <button class="button">REGISTER NOW</button>
+          </a>
+          <div class="about">
+            <h1>Rules and Regulations</h1>
+            <ul>
+              <li>The Competition is open only to the students of Science or Technical education courses.</li>
+              <li>Only students currently enrolled at a College/University are eligible.</li>
+              <li>The team size is limited to 2 students (minimum) and 4 students (maximum).</li>
+              <li>Online registration is compulsory.</li>
+              <li>All participants should produce their identity cards while appearing in the competition.</li>
+              <li>All the participants will have to report on 24th January 2024, Wednesday at 9.00 am and keep the models/projects ready working before 9.30 am. Participants reporting late will not be allowed to participate in the competition.</li>
+              <li>Free Entry for all the participants.</li>
+              <li>Participants must carry two hard copies of project abstracts/synopsis.</li>
+              <li>Each project will be evaluated using the judging criteria which include innovation, functionality, presentation, and overall impact.</li>
+              <li>The judge’s decision will be final.</li>
+              <li>Organizers will not be responsible for providing other utilities for the running of the projects or models. The participants must bring all the required accessories.</li>
+              <li>Travel Expenses should be borne by the participants only.</li>
+              <li>The organizers have reserved all rights and authorities regarding all matters related to CARMTIF 2024.</li>
+            </ul>
+          
+            <p>Join us for the celebration of creativity and technology at Carmel Polytechnic College, Punnapra, Alappuzha.</p>
+          
+            <h1>Event Coordinator</h1>
+            <p>
+             Mrs. Sreeji Srinivas <br>
+              <a href="tel:+919497219788" style="color: #ffffff; text-decoration: none;">
+                <i class="fas fa-phone"></i> +91 9497219788<br/>
+              </a>
+        
+              <a href="https://wa.me/919497219788" style="color: #ffffff; text-decoration: none;">
+                <i class="fab fa-whatsapp"></i> +91 9497219788
+              </a>
+            </p>
+            
+          </div>
 
+    </div>
   </div>
+
 
 </body>
 <script src="https://kit.fontawesome.com/c080ff208b.js" crossorigin="anonymous"></script>
-
 </html>
